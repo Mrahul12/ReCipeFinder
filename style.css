@@ -1,0 +1,71 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+body{
+ height: 100vh;
+ padding: 20px;
+ display: flex;
+ flex-direction: column;
+ /* justify-content: center; */
+ align-items: center;
+ gap: 20px;
+ overflow-x: hidden;
+}
+header{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 20px;
+}
+form{
+ background-color: cadetblue;
+padding: 20px;
+border-radius: 5px;
+}
+input{
+ padding: 5px 10px;
+ border-radius: 5px;
+}
+button{
+ padding: 5px;
+ background-color: #fff;
+ font-family: 700;
+ border: none;
+ border-radius: 5px;
+}
+.container{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+ /* padding: 20px; */
+}
+img{
+ object-fit:cover;
+border: 3px solid rgb(76, 74, 74);
+border-radius: 20px;
+align-self: center;
+width: 80%;
+
+}
+h3{
+ align-self: center;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ text-align: justify;
+
+}
+p{
+ font-size: 1.5rem;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #fff;
+}
+.menu{
+ border: 2px solid grey;
+ padding: 10px 30px;
+ border-radius: 10px;
+ background-color: darkcyan;
+}
